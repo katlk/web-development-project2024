@@ -3,7 +3,7 @@ h1 {
     color: navy;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/*I changed the colors for the font and background and changed the font type to a sans serif font.*/
 body {
     background-color:rgba(9, 155, 102, 0.636);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
