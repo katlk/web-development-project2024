@@ -7,9 +7,11 @@
         <h1>
             WebDev Project...
         </h1>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="style1.css">
         <!--Attempt to use external style sheets for CSS-->
+        <script defer src="milestone1.js"></script>
     </head>
+
     <body>
         <nav>
         <ul>
@@ -24,8 +26,28 @@
         throughout. From getting my first job to changing the major that a carefully planned to study for the job I have wanted
         for years, I have learned many things along the way...
         </p>
+        <h2>
+            Contact Me
+        </h2>
+
+        <!--Attempt at using form validation on home page-->
+        <div id="error"></div>
+        <form id="form" method="POST" action="Contact.html">
+            <div>
+                <label for="email">Email</label>
+                <input id="email" email="email" type="text">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input id="password" email="password" type="password">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
 
     </body>
+
+
+
 </html>
  
 

@@ -1,0 +1,28 @@
+h1 {
+    background-color:white;
+    color: navy;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*I changed the colors for the font and background and changed the font type to a sans serif font.*/
+body {
+    background-color:rgba(9, 155, 102, 0.636);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+nav {
+    overflow: hidden;
+    background-color: rgb(157, 230, 223);
+}
+
+li {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h2 {
+    color: white;
+}
+p {
+    color: white;
+}
