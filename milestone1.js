@@ -1,6 +1,5 @@
 //Allows backend to get to receive user input.
 const name = document.getElementById('email')
-const password = document.getElementById('password')
 const form = document.getElementById('form')
 
 //Here the code checks for valid information to prevent a user from submitting nothing at all. I want the page to remail until the user submits actual text.
@@ -18,3 +17,7 @@ form.addEventListener('submit', (e) => {
 //I did get stuck at this point with returning back to the homepage after a form is submitted.
     
 })
+
+window.location.href = 'new.html';
+window.location.href = 'About.html';
+window.location.href = 'Contact.html';

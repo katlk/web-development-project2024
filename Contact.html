@@ -1,9 +1,9 @@
  <html>
     <nav>
         <ul>
-        <li><a href="new.html">Home</a></li>
-        <li><a href="#About.html">About</a></li>
-        <li><a href="#Contact.html">Contact</a></li>
+        <a href="new.html">Home</a>
+        <a href="#About.html">About</a>
+        <a href="#Contact.html">Contact</a>
         </ul>
         <!--https://www.html-easy.com/learn/how-to-make-multiple-pages-in-html/-->
     </nav>
@@ -12,13 +12,28 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <h1>
-            WebDev Project...
+            WebDev Project...Contact
         </h1>
         <link rel="stylesheet" href="style1.css">
         <!--Attempt to use external style sheets for CSS-->
         <script defer src="milestone1.js"></script>
     </head>
     <body>
-        Contact
+
+        <p>
+            I can be contacted by email:
+            katherine.kellman173@gmail.com, or through my school email kkellman@students.kennesaw.edu.
+        </p>
+        <!--Attempt at using form validation on home page for email and password-->
+        <div id="error"></div>
+        <form id="form" method="POST" action="Contact.html">
+            <div>
+                <label for="email">Email</label>
+                <input id="email" email="email" type="text">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
     </body>
+
  </html>   
